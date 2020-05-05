@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'JandaQuirkygirl';
+    src: url('JandaQuirkygirl.ttf') format('truetype');
+    text-shadow: 0px 0px;
+    border-top: thin solid #EBC865;
+    border-radius: 20px;
+    background-color: #ECC784;
+    font-weight: bold;
+    font-size: 0px;
+    text-align: center;
+    letter-spacing: 17px;
+}

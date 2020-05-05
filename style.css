@@ -1,0 +1,87 @@
+@import url("webfonts/JandaQuirkygirl/stylesheet.css");
+#header {
+    font-family: JandaQuirkygirl;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 0px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    letter-spacing: 18px;
+}
+
+#tagline {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #F202BE;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: normal;
+    background-image: url(images/wreathhand.jpeg);
+    background-position: 239% 16%;
+    width: 1324px;
+    height: 105px;
+    display: block;
+    line-height: 498px;
+    text-align: right;
+    background-size: 165px 208px;
+    opacity: 1;
+    margin-left: 150px;
+    margin-right: 20px;
+}
+
+#slidecontainer {
+	width: 800px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	text-align: center;		
+}
+
+#imagecontainer {
+	width: 1440px;
+	height: 288px;
+	position: relative;
+	transition: left 2s;
+}
+
+.slider-image{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.buttoncontainer{
+	top: -20px;
+	position: relative;
+}
+
+.sliderbutton{
+	display: inline block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background-color: aliceblue
+}
+
+#slider-image-1:target ~ .imagecontainer{
+	left: 0px;
+}
+
+#slider-image-2:target ~ .imagecontainer{
+	left: -288px
+}
+
+#slider-image-3:target ~ .imagecontainer{
+	left: -576px
+}
+
+#slider-image-4:target ~ .imagecontainer{
+	left: -864
+}
+
+#slider-image-5:target ~ .imagecontainer{
+	left: -1152px
+}
