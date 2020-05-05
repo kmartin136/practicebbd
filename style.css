@@ -47,6 +47,7 @@
     transition: left 2s;
     border: thin solid #DCBDBE;
     top: 200px;
+    margin-top: 60px;
 }
 
 .slider-image{
