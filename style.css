@@ -41,16 +41,19 @@
 }
 
 #imagecontainer {
-	width: 1440px;
-	height: 288px;
-	position: relative;
-	transition: left 2s;
+    width: 1440px;
+    height: 288px;
+    position: relative;
+    transition: left 2s;
+    border: thin solid #DCBDBE;
+    top: 100px;
 }
 
 .slider-image{
-	float: left;
-	margin: 0px;
-	padding: 0px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    top: 80px;
 }
 
 .buttoncontainer{
